@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "A Jest + npm lab session",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Mesam97/testing-with-jest.git"
+  },
+  "author": "Mesam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mesam97/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/Mesam97/testing-with-jest#readme"
+}
