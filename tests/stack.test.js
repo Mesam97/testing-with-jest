@@ -25,5 +25,5 @@ test('pop on stack with two or more elements to pop the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(2);
     stack.pop();
-    expect(stack.pop()).toBe(2);
+    expect(stack.pop()).not.toBe(2);
 });

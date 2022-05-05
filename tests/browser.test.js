@@ -26,7 +26,7 @@ test('The stack should be empty in the beginning', async () => {
 
 test('All buttons exist', async () => {
 	let peekButton = await driver.findElement(By.id('peek'));
-	let popButton = await driver.findElement(By.id('hej'));
+	let popButton = await driver.findElement(By.id('pop'));
 	let pushButton = await driver.findElement(By.id('push'));
 	expect(peekButton).toBeDefined();
 	expect(popButton).toBeDefined();
